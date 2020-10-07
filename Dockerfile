@@ -90,6 +90,7 @@ RUN mkdir -p /home/renderer/src \
 #copy renderd configuration and tile data
 COPY renderd.conf /usr/local/etc/renderd.conf
 COPY style.xml /usr/local/etc/style.xml
+COPY protectionstyle.xml /usr/local/etc/protectionstyle.xml
 COPY data/ /usr/local/etc/tiledata/
 RUN mkdir /var/log/ts
 
