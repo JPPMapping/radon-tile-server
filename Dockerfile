@@ -127,3 +127,4 @@ ENTRYPOINT ["/run.sh"]
 CMD []
 
 EXPOSE 80 5432
+LABEL org.opencontainers.image.source https://github.com/JPPMapping/radon-tile-server

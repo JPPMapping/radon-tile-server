@@ -14,7 +14,7 @@
 <Style name="Radon" filter-mode="first" >
   <Rule>
     <Filter>([Class_max] = 2)</Filter>
-    <PolygonSymbolizer fill-opacity="1" fill="#ffe563" />
+    <PolygonSymbolizer fill-opacity="1" fill="#ffff00" />
   </Rule>
   <Rule>
     <Filter>([Class_max] = 3)</Filter>
@@ -22,15 +22,15 @@
   </Rule>
   <Rule>
     <Filter>([Class_max] = 4)</Filter>
-    <PolygonSymbolizer fill-opacity="1" fill="#ff0000" />
+    <PolygonSymbolizer fill-opacity="1" fill="#fa9e1d" />
   </Rule>
   <Rule>
     <Filter>([Class_max] = 5)</Filter>
-    <PolygonSymbolizer fill-opacity="1" fill="#9c3232" />
+    <PolygonSymbolizer fill-opacity="1" fill="#ff0000" />
   </Rule>
   <Rule>
     <Filter>([Class_max] = 6)</Filter>
-    <PolygonSymbolizer fill-opacity="1" fill="#4f2e2e" />
+    <PolygonSymbolizer fill-opacity="1" fill="#ff0000" />
   </Rule>  
 </Style>
 <Layer name="Radon"
